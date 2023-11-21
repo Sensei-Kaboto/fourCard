@@ -45,6 +45,7 @@ body{
     display: grid;
     place-items: center;
     width: 375px;
+    margin: 0;
 }
 
 main{
