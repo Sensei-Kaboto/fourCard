@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root{
+    /* ------------------------ Primary --------------------------------------- */
+
+        --Red: hsl(0, 78%, 62%);
+        --Cyan: hsl(180, 62%, 55%);
+        --Orange: hsl(34, 97%, 64%);
+        --Blue: hsl(212, 86%, 64%);
+        --cardOne:hsla(180, 62%, 55%, 1);
+        --cardTwo: hsla(0, 78%, 62%, 1);
+        --cardThree: hsla(34, 96%, 64%, 1);
+        --cardFour:hsla(212, 86%, 64%, 1);
+
+
+        /* ---------------------------- Neutral ------------------------------------------ */
+
+        --VeryDark__Blue: hsl(234, 12%, 34%);
+        --GrayishBlue: hsl(229, 6%, 66%);
+        --VeryLight__Gray: hsl(0, 0%, 98%);
+
+        /* ---------------------------- Typography -------------------------------------- */
+
+        --Family : Poppins;
+        --Weights__200: 200;
+        --Weigths__400: 400;
+        --Weights__600: 600;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: var(--VeryDark__Blue);
+    font-family: var(--Family);
+}
+
+h1,
+p{
+    margin-top: 0;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    width: 375px;
+}
+
+main{
+    margin: 80px 40px;
+}
+header{
+    text-align: center;
+
+}
+header h1{
+    font-size: 2.4rem;
+    font-weight: var(--Weights__200);
+    margin-bottom: 15px;
+
+}
+
+header h1 span{
+    
+    font-weight: var(--Weights__600);
+
+}
+
+header p{
+    font-size: 1.5rem;
+    font-weight: var(--Weigths__400);
+    opacity: 0.5;
+
+    
+}
+
+.cardOne,
+.cardTwo ,
+.cardThree ,
+.cardFour {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+
+
+.cardOne h1,
+.cardTwo h1,
+.cardThree h1,
+.cardFour h1 {
+    font-size: 2rem;
+    font-weight: var(--Weights__600);  
+    margin-bottom: 0px; 
+}
+.cardOne p,
+.cardTwo p,
+.cardThree p,
+.cardFour p {
+    font-size: 1.3rem;
+    font-weight: var(--Weigths__400);
+    opacity: 0.5;
+}
+
+.separator1 {
+    background-color: var(--cardOne);
+    height: 4px;
+    margin-top: 80px;
+
+}
+.separator2{
+    background-color: var(--cardTwo);
+    height: 4px;
+    margin-top: 25px;
+}
+
+.separator3{
+    background-color: var(--cardThree);
+    height: 4px;
+    margin-top: 25px;
+}
+.separator4{
+    background-color: var(--cardFour);
+    height: 4px;
+    margin-top: 25px;
+}
+
+img{
+    height: 57px;
+    width: 57px;
+    margin: 25px;
+    display: block;
+    margin-left: auto;
+
+}
+
+
+
+
+
+
+
