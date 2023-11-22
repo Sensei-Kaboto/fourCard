@@ -145,9 +145,9 @@ footer{
 
     body{
         display: grid;
-        grid-template-rows: 80px 1fr 50px;
-        width: 800px;
-        margin: 80px 165px;
+        grid-template-rows: 120px 1fr 50px;
+        width: 1440px;
+        margin: 80px auto;
         row-gap: 60px;
     }
 
@@ -172,10 +172,10 @@ footer{
 
     main{
         display: grid;
-        grid-template-columns: 280px 280px 280px;
+        grid-template-columns: 350px 350px 350px;
         grid-template-rows: 140px 140px 140px 140px;
         column-gap: 30px;
-        margin: 0px;
+        margin: 0px auto;
       
     }
 
