@@ -153,7 +153,7 @@ section{
         grid-template-rows: 120px 1fr 50px;
         width: 1440px;
         margin: 80px auto;
-        row-gap: 60px;
+        row-gap: 70px;
     }
 
     header{
