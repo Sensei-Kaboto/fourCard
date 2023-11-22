@@ -140,6 +140,11 @@ footer{
 }
 
 
+section{
+    margin-top: 25px;
+}
+
+
 
 @media(min-width:40.7em){
 
@@ -203,11 +208,10 @@ footer{
         grid-row-start:2 ;
         grid-row-end: 4 ;
     }
-
     
-  
-
-
+    section{
+        margin: 0;
+    }
 
     footer{
         grid-column-start: 1;
